@@ -10,7 +10,7 @@ body{
     background-color:#8A817C ;
 }
 h2,p{
-    text-align:center;  /*Either here do para text align center*/
+    text-align:center;  
 }
 .container{
     background-color:#BCB8B1;
@@ -28,7 +28,7 @@ form select,button,input,p{
     border:none;
     outline:none;
     border-radius:0.75rem;
-    text-align:center;  /*or can here*/
+    /* text-align:center;  [by doing text-align to center you have also brought input to center] */
     
 }
 form input{
