@@ -9,6 +9,9 @@ body{
     min-height:85vh;
     background-color:#8A817C ;
 }
+h2,p{
+    text-align:center;  /*Either here do para text align center*/
+}
 .container{
     background-color:#BCB8B1;
     padding:2rem;
@@ -20,12 +23,13 @@ body{
 form{
     margin:2rem 0 1rem 0;
 }
-form select,button,input{
+form select,button,input,p{
     width:100%;
     border:none;
     outline:none;
     border-radius:0.75rem;
-
+    text-align:center;  /*or can here*/
+    
 }
 form input{
     border:1px solid lightslategray;
